@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../../RESET.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Space+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="../style.css" rel="stylesheet" />
+    <link href="../header.css" rel="stylesheet" />
+    <link href="../footer.css" rel="stylesheet" />
+    <link href="./contact.css" rel="stylesheet" />
+    <script src="./contactscript.js" defer></script>
+    <title>Contact</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1><a href="../main_page/index.html">Project</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="../about_me/aboutme.html">About Me</a></li>
+                    <li><a href="#" id="drop_list">Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div id="work">
+                <h1><a href="#" id="quit">&#10006;</a></h1>
+                <h1><a href="../Workk/PE/pe.html">Train AM</a></h1>
+                <h1><a href="../Workk/arduino/arduino.html">Avoidance obstacle car</a></h1>
+            </div>
+            <img src="../image/cat.jpg" alt="avatar" id="avatar" width="150px" height="150px" />
+            <h1>Thanks for taking the time to reach out.<br> How can I help you today?</h1><br>
+            <form action="mailto:nghitrn135@yahoo.com" enctype="text/plain" method="POST" onsubmit="return check()">
+            <div class="full">
+                <div class="half-width">
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Your Name" class="input_check" />
+                </div>
+                <div class="half-width">
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" placeholder="Email" class="input_check"  />
+                </div>
+            </div>
+            <label for="comment">Message</label><br>
+            <textarea id="comment" class="input_check" name="message"></textarea><br>
+            <button type="submit" id="submit">Submit</button>
+            </form>
+        </main>
+  
+        <footer>Copyright © Thomas More Mechelen-Antwerp vzw - Campus 
+            De Nayer - Professional bachelor electronics-ict - 2021</footer>
+    </div>
+</body>
+</html>

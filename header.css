@@ -1,0 +1,25 @@
+header{
+    position:fixed;
+    top:0px;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding:40px 30px;
+    width:95vw;
+    z-index: 10;
+    mix-blend-mode: difference;
+}
+
+
+header li{
+    display:inline-block;
+    margin:0 20px;
+}
+header a{
+    padding:20px 10px;
+    color:#fff;
+}
+header a:hover{
+    color:rgba(255, 245, 238, 0.637);
+    transition:500ms;
+}   

@@ -1,0 +1,9 @@
+footer{
+    color:#ffffff;
+    position:fixed;
+    bottom:0px;
+    padding:10px;
+    margin-top:100px;
+    mix-blend-mode: difference;
+    z-index:10;
+}
